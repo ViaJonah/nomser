@@ -24,3 +24,9 @@ body {
 .navbar {
   background: image_url('weather.png')
 }
+
+.navbar-inverse .navbar-brand {
+  color: #000000;
+  font-family: "source_code_promedium", sans-serif;
+  font-size: 26px;
+}
