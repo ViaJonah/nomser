@@ -4,6 +4,7 @@ class CreatePlaces < ActiveRecord::Migration[5.0]
       t. string :name
       t. text :description
       t. string :address
+      t. string :photos
       t.timestamps
     end
   end
