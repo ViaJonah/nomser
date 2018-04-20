@@ -79,10 +79,11 @@
 
 <div class ="clear"></div>
 
-
+<% if @place.photos.present? %>
 <% @place.photos.each do |photos| %>
   <%= image_tag photos.picture %>
   <%= photo.message %>
+<% end %>
 <% end %>
 
 
