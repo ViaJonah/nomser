@@ -9,5 +9,4 @@ class NotificationMailer < ApplicationMailer
       subject: "A comment has been added to #{@place.name}")
   end
 
-
 end
